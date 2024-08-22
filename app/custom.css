@@ -1,0 +1,255 @@
+.text_center {
+  text-align: center;
+}
+
+.fontsize15 {
+  font-size: 16px;
+  font-weight: 450;
+}
+
+.text_img {
+  top: 10rem;
+  left: 10rem;
+}
+
+.grey_curveimg {
+  margin-top: -7rem;
+}
+
+.cards_div {
+  top: 7rem;
+}
+.formdiv {
+  top: 7rem;
+}
+.card_1 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.card_2 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.lightgrey {
+  background-color: #f9f9f9;
+}
+
+.lightbrownbg{
+  background-color: #e7d8c9;
+}
+
+
+.darkbluebg{
+  background-color: #22304A;
+}
+
+.pink_bg{
+  background-color: #F8C8DC;
+}
+
+
+.fontsize18 {
+    font-size: 18px;
+  }
+
+.bglightblue {
+  background-color: #e8f0ff;
+}
+
+.card_padding {
+  padding: 4rem;
+}
+
+.custom_container {
+  max-width: 90%;
+  width: 100%;
+}
+
+.loan-des{
+  opacity: 0.8;
+  line-height: 1.3;
+  font-size: 17px;
+}
+
+.card_padding2{
+    padding: 3rem;
+}
+
+.bg-lime{
+    background-color: bisque;
+}
+
+.bluetext{
+  color: #052564;
+}
+
+.loan_card_cont{
+  top: 45%;
+ 
+  width: 80%;
+}
+.loan_card{
+  height: 500px;
+}
+.transCard {
+ 
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.guiden{
+  height: 600px;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+}
+
+.career-heading{
+  font-size: 80px;
+}
+
+.lighttext{
+  color: #2C3E56;
+  opacity: 0.9;
+}
+
+.sat_sec{
+  height: 75rem;
+}
+
+.sat_cards{
+  top: 30%;
+}
+
+.contact-sec{
+  height: 45rem;
+}
+
+.contant_det{
+  top: 9%;
+  border-radius: 10px;
+
+}
+.blog_detail h1{
+  font-size: 1.98rem;
+  
+}
+.blog_detail h2{
+  font-size: 1.65rem;
+  
+}
+.blog_detail h3{
+  font-size: 1.5rem;
+  
+}
+.blog_detail h4{
+  font-size: 1.3rem;
+  
+}
+.blog_detail strong{
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+.blog_detail table {
+  border-collapse: collapse;
+  width: auto;
+
+}
+
+
+.blog_detail table th,
+.blog_detail table td {
+  border: 1px solid #ddd;
+}
+
+.blog_detail table th,
+.blog_detail table td {
+  padding: 8px;
+}
+
+.blog_detail table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 2rem;
+}
+
+.blog_detail table th {
+  background-color: white ;
+  font-weight: 500;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .guiden {
+    height: 600px;
+    position: absolute;
+    top: 18%;
+    left: 0;
+  }
+  .grey_curveimg {
+    margin-top: -3rem;
+  }
+  .text_img {
+    top: 3rem;
+    left: 2rem;
+  }
+  .card_padding2{
+    padding: 0px;
+}
+.career-heading{
+  font-size: 50px;
+}
+.loan_card{
+  height: 600px;
+}
+.loan_card_cont{
+  top: 25%;
+
+ 
+}
+.sat_sec{
+  height: 120rem;
+}
+
+.sat_cards{
+  top: 10%;
+}
+.contact-sec{
+  height: 70rem;
+}
+
+.contant_det{
+  top: 2%;
+  border-radius: 10px;
+
+}
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .text_img {
+    top: 4rem;
+    left: -1rem;
+}
+  .grey_curveimg {
+    margin-top: -3rem;
+  }
+  .sat_sec{
+    height: 100rem;
+  }
+  
+  .sat_cards{
+    top: 10%;
+  }
+}
+
+
+/* Big Screen  */
+/* @media screen and (min-width: 1600px) {
+  .container {
+    max-width: 90% !important;
+  }
+} */
+  
